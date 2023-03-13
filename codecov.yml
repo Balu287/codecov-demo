@@ -10,12 +10,12 @@ flag_management:
         - api/
       statuses:
         - type: project
-          target: 40%
+          target: 80%
           threshold: 1%
     - name: frontend
       paths:
         - web/
       statuses:
         - type: project
-          target: auto
+          target: 50
           threshold: 1%
